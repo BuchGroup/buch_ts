@@ -1,10 +1,12 @@
 import * as React from "react";
 import Image from "next/image";
 
+import YuriyBoot from '../public/team/YuriyBoot.webp';
+
 export default function about_team() {
   return (
     <div className="sm:flex justify-center pt-20">
-      <Image className="bg-cover" src="/team/YuriyBoot.jpg" width={550} height={696} alt="Yuriy Boot" loading="lazy" />
+      <Image className="bg-cover" src={YuriyBoot} width={550} height={696} alt="Yuriy Boot" loading="lazy" />
       <div className="bg-light-black flex flex-col items-center justify-center pt-12 pb-24">
         <div className="max-w-6xl w-9/12">
           <h2 className="text-white text-3xl font-bold sm:text-7xl">
