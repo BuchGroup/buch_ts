@@ -6,6 +6,7 @@ const Header = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
+  const [textColorBlack, setTextColorBlack] = useState('black')
 
   const handleNav = () => {
     setNav(!nav);
@@ -16,6 +17,7 @@ const Header = () => {
       if (window.scrollY >= 90) {
         setColor('#ffffff');
         setTextColor('#000000');
+        setTextColorBlack('#000000')
       } else {
         setColor('transparent');
         setTextColor('#ffffff');
@@ -57,7 +59,7 @@ const Header = () => {
         {/* Mobile Button */}
         <div onClick={handleNav} className='block justify-end sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={30} style={{ color: `${textColorBlack}` }} />
           ) : (
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
