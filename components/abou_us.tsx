@@ -10,7 +10,7 @@ export default function about_us() {
         <h2 className="flex justify-center text-black py-10 text-4xl font-team font-bold">
           ABOUT US
         </h2>
-        <p className="text-black w-[40rem] text-xs mx-auto sm:text-base leading-normal py-6">
+        <p className="w-[20rem] sm:w-[40rem] text-black text-center text-2xs font-semibold mx-auto">
           BUCH GROUP is dedicated to serving the central Ohio real estate
           market. Last year, we were one of the top real estate teams with over
           240 transactions and $44 million in sales volume, putting us in the
@@ -30,14 +30,13 @@ export default function about_us() {
         />
         <div className="py-10 sm:[h-673px] bg-light-black flex flex-col items-center justify-center">
           <div className="max-w-6xl w-9/12">
-            <h2 className="text-white text-3xl font-bold sm:text-7xl">
-              YURIY <span className="text-our">BOOT</span>
-            </h2>
-            <div className="flex">
-               <hr />
-               <h3 className="text-white text-2xl font-semibold mx-0">
-               Real Estate Broker
-               </h3>
+            <h3 className="text-white text-3xl font-bold sm:text-7xl">
+              YURIY BOOT
+            </h3>
+            <div className="flex items-center">
+               <p className="text-2xl text-our font-semibold mx-0">
+                REAL ESTATE BROKER
+               </p>
             </div>
             <p className="text-white font-light tracking-wider my-8 mx-0 leading-8">
               &quot;I love Real Estate and have a passion for helping

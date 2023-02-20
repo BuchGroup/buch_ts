@@ -17,6 +17,11 @@ html,body {
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.BuchLogo {
+  width: 461px;
+  height: 262px;
+}
+
 .container2 {
   width: 1725px;
   max-width: calc(100% - 20px);
@@ -148,4 +153,11 @@ html,body {
 
 .container1 .box:nth-child(6) {
   background: #3b95e3;
+}
+
+@media (max-width: 767px) {
+  .BuchLogo {
+    width: 290px;
+    height: 162px;
+  }
 }
