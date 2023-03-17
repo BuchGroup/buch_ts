@@ -7,7 +7,9 @@ import Stats from "@/components/stats";
 import AboutUs from "@/components/abou_us";
 import Offer from "@/components/offer";
 import Dream from "@/components/dream_home";
+import Review from "@/components/reviews"
 import Contact from "@/components/contact";
+import Form from "@/components/new_contact"
 
 export default function Home() {
   return (
@@ -26,7 +28,9 @@ export default function Home() {
         <AboutUs />
         <Offer />
         <Dream />
-        <Contact />
+        <Review />
+        {/* <Contact /> */}
+        <Form/>
       </Layout>
     </div>
   );

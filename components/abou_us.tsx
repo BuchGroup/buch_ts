@@ -5,12 +5,12 @@ import YuriyBoot from "../public/team/YuriyBoot.webp";
 
 export default function about_us() {
   return (
-    <div className="pb-30   flex flex-col bg-contain bg-fixed bg-center white-city">
+    <div className="py-30 flex flex-col bg-contain bg-fixed bg-center white-city">
       <div>
-        <h2 className="flex justify-center text-black py-10 text-4xl font-team font-bold">
+        <h2 className="flex justify-center text-black pb-12 pt-36 text-5xl font-team font-bold">
           ABOUT US
         </h2>
-        <p className="w-[20rem] sm:w-[40rem] text-black text-center text-2xs font-semibold mx-auto">
+        <p className="w-[20rem] sm:w-[40rem] text-black text-center text-xl font-semibold mx-auto">
           BUCH GROUP is dedicated to serving the central Ohio real estate
           market. Last year, we were one of the top real estate teams with over
           240 transactions and $44 million in sales volume, putting us in the
@@ -19,7 +19,7 @@ export default function about_us() {
           exciting as possible.
         </p>
       </div>
-      <div className="sm:flex justify-center pt-20 container2">
+      <div className="sm:flex justify-center py-36 container2">
         <Image
           className="bg-cover"
           src={YuriyBoot}

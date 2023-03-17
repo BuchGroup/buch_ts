@@ -1,0 +1,48 @@
+.container {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .background {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+ }
+ 
+ .main {
+   padding: 5rem 0;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .title {
+   margin: 0;
+   line-height: 1.15;
+   font-size: 4rem;
+   text-align: center;
+ }
+ 
+ .description {
+   line-height: 1.5;
+   font-size: 1.5rem;
+   text-align: center;
+ }
+ 
+ .code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+     monospace;
+   font-size: 1.1rem;
+   padding: 0.2rem 0.4rem;
+   color: #0070f3;
+   background-color: #eaeaea;
+   border-radius: 0.3rem;
+ }

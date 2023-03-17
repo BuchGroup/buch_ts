@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ElfsightWidget } from 'react-elfsight-widget';
 // // import axios from "axios";
 
 // const fetchReviews = async (apiKey: string, placeId: string, offset: number) => {
@@ -34,4 +35,15 @@ import React, { useState } from "react";
 //  };
  
 //  export default ReviewList;
+
+
+function Review() {
+   return <div className="container3">
+    <h2 className="flex justify-center text-center text-black text-5xl font-team font-bold py-36">WHAT OUR CLIENTS SAY ABOUT US</h2>
+    <ElfsightWidget widgetID="6fb5148f-2351-41db-9470-7bce003f4843" />
+   </div>;
+ }
+
+export default Review
+ 
  
