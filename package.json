@@ -27,8 +27,8 @@
     "@types/node-cron": "^3.0.7",
     "@types/node-fetch": "^2.6.2",
     "@types/qs": "^6.9.7",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.7"
   }
 }

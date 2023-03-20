@@ -2,8 +2,6 @@ import Head from "next/head";
 import Layout from "@/components/layout/layout";
 import Hero from "@/components/hero";
 import Stats from "@/components/stats";
-// import Team from "@/components/team";
-// import About from "@/components/about_team";
 import AboutUs from "@/components/abou_us";
 import Offer from "@/components/offer";
 import Dream from "@/components/dream_home";
@@ -23,13 +21,10 @@ export default function Home() {
       <Layout>
         <Hero />
         <Stats />
-        {/* <Team />
-        <About /> */}
         <AboutUs />
         <Offer />
         <Dream />
         <Review />
-        {/* <Contact /> */}
         <Form/>
       </Layout>
     </div>
