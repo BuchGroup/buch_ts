@@ -105,7 +105,7 @@ export default function LeadForm() {
       </div>
       <div className="w-full sm:w-1/2 sm:ml-4">
         <label className="font-semibold" htmlFor="email">
-          Email*
+          Email
         </label>
         <input
           className="border outline-0 border-black border-t-0 border-l-0 border-r-0 border-b-2 focus:border-sky-400 transition-all py-2 w-full"

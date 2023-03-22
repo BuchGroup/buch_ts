@@ -34,22 +34,19 @@ const Header = () => {
       <div className='max-w-[1240px] m-auto flex justify-center items-center p-4 text-white'>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-schedule transition-all'>
-            <Link href='/'>Home</Link>
+            <Link href='/#home'>Home</Link>
           </li>
           <li className='p-4 hover:text-schedule transition-all'>
-            <Link href='/#about_us'>About Us</Link>
+            <Link href='/#about'>About Us</Link>
           </li>
           <li className='p-4 hover:text-schedule transition-all'>
             <Link href='/#offer'>What We Offer</Link>
           </li>
           <li className='p-4 hover:text-schedule transition-all'>
-            <Link href='https://yuriyboot.red1realty.com/index.php'>MLS</Link>
+            <Link href='/#mls'>MLS</Link>
           </li>
           <li className='p-4 hover:text-schedule transition-all'>
             <Link href='/#contact'>Contact</Link>
-          </li>
-          <li className='p-4 hover:text-schedule transition-all'>
-            <Link href='/contact'>BUCH Cast</Link>
           </li>
           <li className='p-4 hover:text-schedule transition-all'>
             <Link href='/contact'>Blog</Link>
@@ -87,9 +84,6 @@ const Header = () => {
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/contact'>Contact</Link>
-            </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/contact'>BUCH Cast</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/contact'>Blog</Link>

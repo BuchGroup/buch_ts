@@ -6,7 +6,6 @@ import AboutUs from "@/components/abou_us";
 import Offer from "@/components/offer";
 import Dream from "@/components/dream_home";
 import Review from "@/components/reviews"
-import Contact from "@/components/contact";
 import Form from "@/components/new_contact"
 
 export default function Home() {
@@ -19,13 +18,13 @@ export default function Home() {
         <link rel="icon" href="/BuchFavicon.ico" />
       </Head>
       <Layout>
-        <Hero />
+        <section id="home"><Hero /></section>
         <Stats />
-        <AboutUs />
-        <Offer />
-        <Dream />
-        <Review />
-        <Form/>
+        <section id="about"><AboutUs /></section>
+        <section id="offer"><Offer /></section>
+        <section id="mls"><Dream /></section>
+        <Review /> 
+        <section id="contact"><Form/></section>
       </Layout>
     </div>
   );
