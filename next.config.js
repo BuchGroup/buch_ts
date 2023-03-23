@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  nextBuildDir: require('path').join(__dirname, '_next'),
 }
 
 module.exports = nextConfig
