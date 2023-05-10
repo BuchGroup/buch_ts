@@ -1,10 +1,9 @@
 import Image from "next/image";
 
-import RealProducers from "@/public/rewards/RealProducers.png";
-import TopOne from "@/public/rewards/Top1.png"
+import RealProducers from "@/public/rewards/RealProducers.webp";
+import TopOne from "@/public/rewards/Top1.webp";
 
 const stats = () => {
-
   return (
     <div className="flex-none sm:flex bg-fixed bg-center bg-cover my-20">
       <div className="max-w-1240px mx-auto text-center">
@@ -44,8 +43,8 @@ const stats = () => {
           <Image
             className="bg-cover mx-auto"
             src={RealProducers}
-            width={140}
-            height={140}
+            width={140} // 16 * 8.75 rounded
+            height={78.75} // 9 * 8.75
             alt="2022 RP real producers columbus top 500"
             loading="lazy"
           />
