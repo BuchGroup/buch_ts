@@ -14,9 +14,9 @@ const AboutUsIntro = () => (
       Ohio realtors. We excel in the central Ohio real estate market, helping
       clients buy and sell homes in Columbus with ease and efficiency. With our
       in-depth understanding of the market dynamics, we assist our clients in
-      making well-informed decisions, whether they're looking to buy or sell a
-      home in Columbus. Trust the BUCH GROUP for a seamless, rewarding Ohio real
-      estate experi
+      making well-informed decisions, whether they&apos;re looking to buy or
+      sell a home in Columbus. Trust the BUCH GROUP for a seamless, rewarding
+      Ohio real estate experience.
     </p>
   </header>
 );
