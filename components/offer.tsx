@@ -19,11 +19,13 @@ export default function Offer() {
           {OFFER_DATA.map(({ icon, title, description }, index) => (
             <div key={index} className="w-26 h-[19rem] box">
               <div className="icon">
-                <img className="fa" loading="lazy" src={icon} alt={title} />
+                <Image className="fa" loading="lazy" src={icon} alt={title} width={40} height={40}/>
               </div>
               <div className="content">
                 <h3>{title}</h3>
-                <p className="text-sm font-offer sm:font-offer">{description}</p>
+                <p className="text-sm font-offer sm:font-offer">
+                  {description}
+                </p>
               </div>
             </div>
           ))}

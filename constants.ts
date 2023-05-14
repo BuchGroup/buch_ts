@@ -75,3 +75,5 @@ export const NAV_LINKS = [
   { href: "/#contact", label: "Contact" },
   { href: "/contact", label: "Blog" },
 ];
+
+export const GTAG = "G-JG79BQ8FD0";

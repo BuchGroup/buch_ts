@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Meta from "@/components/meta";
 import Layout from "@/components/layout/layout";
 import Hero from "@/components/hero";
@@ -8,6 +7,7 @@ import Offer from "@/components/offer";
 import Dream from "@/components/dream_home";
 import Review from "@/components/reviews";
 import Form from "@/components/new_contact";
+import Script from "@/components/Script";
 
 export default function Home() {
   return (
@@ -32,6 +32,7 @@ export default function Home() {
             <Form />
           </section>
         </Layout>
+        <Script/>
       </Meta>
     </>
   );

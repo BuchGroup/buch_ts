@@ -1,6 +1,6 @@
 import * as React from "react";
 import Image from "next/image";
-import Head from "next/head";
+import Link from "next/link";
 
 import { SOCIAL_MEDIA_ICONS } from "@/constants";
 
@@ -10,17 +10,15 @@ import ColumbusBack from "../public/ColumbusBack.webp";
 export default function hero() {
   return (
     <div className="flex flex-col items-center justify-center h-screen relative">
-      <Head>
-        <title>Buch Group - Central Ohio Real Estate</title>
-        <meta name="description" content="Buch Group specializes in Central Ohio Real Estate." />
-      </Head>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-10" />
       <header className="text-white z-20 relative">
         <Image
-          loading="lazy"
           src={BuchLogo}
           alt="Buch Group Logo"
-          className="BuchLogo"
+          layout="intrinsic"
+          width={500} // specify your own size here
+          height={300} // specify your own size here
+          quality={80} // reduce quality to save size
         />
         <h1 className="text-base sm:text-xl py-5 text-center">
           CENTRAL OHIO REAL ESTATE
@@ -28,7 +26,12 @@ export default function hero() {
       </header>
       <nav className="flex justify-end z-20 absolute bottom-0 pb-5">
         {SOCIAL_MEDIA_ICONS.map((icon) => (
-          <a className="pr-4" href={icon.href} title={icon.name} key={icon.name}>
+          <Link
+            className="pr-4"
+            href={icon.href}
+            title={icon.name}
+            key={icon.name}
+          >
             <Image
               src={icon.src}
               width={32}
@@ -36,7 +39,7 @@ export default function hero() {
               alt={`${icon.name} Icon`}
               loading="lazy"
             />
-          </a>
+          </Link>
         ))}
       </nav>
       <Image

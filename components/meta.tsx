@@ -43,8 +43,7 @@ const Meta = ({ children }: MyComponentProps) => {
           sizes="16x16"
           href="/logo.png"
         />
-        <meta name="msapplication-TileColor" content="#7000FF" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#2D6AA0" />
       </Head>
       {children}
     </>

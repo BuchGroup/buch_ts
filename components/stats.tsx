@@ -43,8 +43,8 @@ const stats = () => {
           <Image
             className="bg-cover mx-auto"
             src={RealProducers}
-            width={140} // 16 * 8.75 rounded
-            height={78.75} // 9 * 8.75
+            width={140} // The width in pixels that the image should display at.
+            height={154} // The height in pixels that the image should display at.
             alt="2022 RP real producers columbus top 500"
             loading="lazy"
           />
