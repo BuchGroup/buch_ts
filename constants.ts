@@ -1,7 +1,7 @@
 export const METADATA = {
-  title: "Buch Group - Columbus Realtors",
+  title: "Buch Group Columbus Realtor: Your Real Estate Agent for Dream Homes",
   description:
-    "Buch Group Columbus Realtors are a dedicated team of real estate professionals in Columbus, Ohio. With years of experience and deep knowledge of the Columbus housing market, they provide top-tier real estate services to home buyers and sellers. Their commitment to client satisfaction, combined with an innovative approach to marketing and comprehensive property search capabilities, make them a go-to resource for Columbus real estate. Buch Group Columbus Realtors are your trusted partners in navigating the dynamic Columbus real estate market.",
+    "Explore Columbus's finest real estate with our skilled realtor. Partner with our experienced real estate agent today. Your dream home awaits you here.",
   siteUrl: "https://buchrealty.com/",
 };
 

@@ -1,13 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-interface LeadData {
-  Last_Name: string;
-  First_Name: string;
-  Email: string;
-  Phone: string;
-}
+import { LeadData } from "@/interfaces/LeadProps";
 
-// Replace with your actual client ID and secret
 const clientId = "1000.6JTRZXDWR7O63EYB044STI4CMLXE9W";
 const clientSecret = "299ee579030a84364e3e491aee76a77b28756602c0";
 const refreshToken =

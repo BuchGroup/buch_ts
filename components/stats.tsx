@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import AnimatedCounter from "@/animation/AnimatedCounter";
+
 import RealProducers from "@/public/rewards/RealProducers.webp";
 import TopOne from "@/public/rewards/Top1.webp";
 
@@ -21,19 +23,31 @@ const stats = () => {
         </div>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:mt-24">
           <div className="flex flex-col text-center">
-            <h3 className="font-bold text-7xl font-main">240</h3>
+            <AnimatedCounter start={0} end={240} duration={2.5} />
             <p className="pb-6 pt-0 sm:pt-6 text-our text-2xl font-medium">
               TRANSACTIONS <br /> SINCE 2020
             </p>
           </div>
           <div className="text-center">
-            <h3 className="font-bold text-7xl font-main">$44m</h3>
+            <AnimatedCounter
+              start={0}
+              end={44}
+              duration={2.5}
+              prefix="$"
+              suffix="m"
+            />
             <p className="pb-6 pt-0 sm:pt-6 text-our text-2xl font-medium">
               SALES VOLUME <br /> SINCE 2020
             </p>
           </div>
           <div className="text-center">
-            <h3 className="font-bold text-7xl font-main">$320k</h3>
+            <AnimatedCounter
+              start={0}
+              end={320}
+              duration={2.5}
+              prefix="$"
+              suffix="k"
+            />
             <p className="pb-6 pt-0 sm:pt-6 text-our text-2xl font-medium">
               AVERAGE SALES <br /> PRICE IN 2022
             </p>

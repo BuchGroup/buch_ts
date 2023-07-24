@@ -1,11 +1,6 @@
 import { useState } from "react";
 
-interface LeadFormData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-}
+import { LeadFormData } from "@/interfaces/LeadProps";
 
 export default function LeadForm() {
   const [formData, setFormData] = useState<LeadFormData>({

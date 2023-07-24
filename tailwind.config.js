@@ -8,8 +8,9 @@ module.exports = {
     extend: {
       colors: {
         'schedule': '#3b95e3',
-        'light-black': '#2c2c2c',
+        'dark': '#2c2c2c',
         'our': '#2d6aa0',
+        'light-black': '#5b5b5b',
       },
       animation: {
         blob: "blob 7s infinite",
