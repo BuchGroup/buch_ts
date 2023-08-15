@@ -15,7 +15,7 @@ const AboutUsIntro = () => (
       real estate agent in the area, we excel in the central Ohio real estate
       market, helping clients buy and sell homes in Columbus with ease and
       efficiency. Our expertise extends across all aspects of real estate,
-      allowing our clients to make well-informed decisions, whether they're
+      allowing our clients to make well-informed decisions, whether they&apos;re
       looking to buy or sell a home in Columbus. For a seamless, rewarding Ohio
       real estate experience, trust the BUCH - your trusted local realtor and
       real estate agent
