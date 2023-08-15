@@ -10,8 +10,8 @@ const AboutUsIntro = () => (
       ABOUT US
     </h2>
     <p className="w-[20rem] sm:w-[40rem] text-black text-center text-xl font-semibold mx-auto">
-      BUCH REALTY is a top Columbus real estate team, recognized in the top 1% of
-      Ohio realtors and among the go-to realtor near me choices. As a leading
+      BUCH REALTY is a top Columbus real estate team, recognized in the top 1%
+      of Ohio realtors and among the go-to realtor near me choices. As a leading
       real estate agent in the area, we excel in the central Ohio real estate
       market, helping clients buy and sell homes in Columbus with ease and
       efficiency. Our expertise extends across all aspects of real estate,
@@ -52,25 +52,26 @@ const YuriyBootBio = () => (
             in the Columbus area. With a strong background in both residential
             and commercial real estate, he offers comprehensive assistance to
             clients looking to buy or sell properties. As a top-tier Columbus
-            realtor, Yuriy is dedicated to exceeding his clients' expectations
-            and ensuring their satisfaction throughout the entire process. One
-            of Yuriy's notable strengths is his commitment to helping immigrant
-            families navigate the real estate market in Columbus. He understands
-            the unique challenges they may face and strives to make the process
-            accessible and straightforward for them. With trilingual
-            capabilities, Yuriy can effectively communicate with a diverse
-            clientele and provide personalized service. Yuriy's outstanding
-            negotiation and sales skills have earned him a well-deserved
-            reputation. Consistently ranking in the top 1% of realtors in
-            Columbus, he is adept at securing favorable deals for his clients.
-            Whether you're buying or selling a home in Columbus, Yuriy's
-            extensive experience and expertise ensure a smooth and efficient
-            process. Beyond his professional life, Yuriy is happily married to
-            his wife, Yana, and they have two sons, Nathan and Jacob. He is
-            driven by his personal goal of serving God wholeheartedly and
-            leaving a lasting legacy by achieving his full potential in life.
-            Yuriy takes great pride in giving back to the Columbus community and
-            assisting others in their journey to homeownership.
+            realtor, Yuriy is dedicated to exceeding his clients&apos;
+            expectations and ensuring their satisfaction throughout the entire
+            process. One of Yuriy&apos;s notable strengths is his commitment to
+            helping immigrant families navigate the real estate market in
+            Columbus. He understands the unique challenges they may face and
+            strives to make the process accessible and straightforward for them.
+            With trilingual capabilities, Yuriy can effectively communicate with
+            a diverse clientele and provide personalized service. Yuriy&apos;s
+            outstanding negotiation and sales skills have earned him a
+            well-deserved reputation. Consistently ranking in the top 1% of
+            realtors in Columbus, he is adept at securing favorable deals for
+            his clients. Whether you&apos;re buying or selling a home in
+            Columbus, Yuriy&apos;s extensive experience and expertise ensure a
+            smooth and efficient process. Beyond his professional life, Yuriy is
+            happily married to his wife, Yana, and they have two sons, Nathan
+            and Jacob. He is driven by his personal goal of serving God
+            wholeheartedly and leaving a lasting legacy by achieving his full
+            potential in life. Yuriy takes great pride in giving back to the
+            Columbus community and assisting others in their journey to
+            homeownership.
           </div>
         </p>
       </div>
