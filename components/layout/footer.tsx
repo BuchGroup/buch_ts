@@ -21,7 +21,7 @@ export default function Contact() {
           </Link>
         ))}
       </div>
-      <p>&copy; 2023: BuchGroup</p>
+      <p>&copy; 2023: BuchRealty</p>
     </footer>
   );
 }

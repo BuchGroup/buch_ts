@@ -1,7 +1,8 @@
 export const METADATA = {
-  title: "Buch Group Columbus Realtor: Your Real Estate Agent for Dream Homes",
+  title:
+    "Buch REALTY Columbus Real Estate Co. Your Real Estate Brokerage for Dream Homes",
   description:
-    "Explore Columbus's finest real estate with our skilled realtor. Partner with our experienced real estate agent today. Your dream home awaits you here.",
+    "Explore Columbus's finest real estate with our skilled realtors. Partner with our experienced real estate team today. Your dream home awaits you here.",
   siteUrl: "https://buchrealty.com/",
 };
 

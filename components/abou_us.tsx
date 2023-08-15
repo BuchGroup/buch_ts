@@ -10,7 +10,7 @@ const AboutUsIntro = () => (
       ABOUT US
     </h2>
     <p className="w-[20rem] sm:w-[40rem] text-black text-center text-xl font-semibold mx-auto">
-      The BUCH GROUP is a top Columbus realtor team, recognized in the top 1% of
+      BUCH REALTY is a top Columbus real estate team, recognized in the top 1% of
       Ohio realtors and among the go-to realtor near me choices. As a leading
       real estate agent in the area, we excel in the central Ohio real estate
       market, helping clients buy and sell homes in Columbus with ease and
