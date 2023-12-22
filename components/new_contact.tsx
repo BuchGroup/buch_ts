@@ -125,6 +125,10 @@ export default function LeadForm() {
             />
           </div>
         </div>
+        <div className="flex justify-center text-center">
+          <p className="text-xs">I agree to receive marketing and customer service calls and text messages from BUCH Realty. Consent is not a condition of purchase. Msg/data rates may apply. Msg frequency varies. Reply STOP to unsubscribe.</p>
+          <input className="mr-5" type="checkbox"></input>
+        </div>
         <div className="flex justify-center">
           <button 
             type="submit" 
